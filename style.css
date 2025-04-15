@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+/* 強制顏色模式支援 */
+@media (forced-colors: active) {
+  html, body {
+    background-color: black;
+    color: white;
+  }
+
+  canvas {
+    border: 1px solid white;
+  }
+}
